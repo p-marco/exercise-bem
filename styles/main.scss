@@ -1,0 +1,25 @@
+/* EXERCISE-BEM
+/* Author: p-marco
+// File: main.scss
+/* STYLES GO HERE */
+
+
+
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+@import 'vendors/test';
+
+@import 'base/reset';
+@import 'base/typography';
+
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'modules/buttons';
+
+@import 'utilities/borders';
+@import 'utilities/shadows';
